@@ -1,0 +1,111 @@
+body{
+    background-color: antiquewhite;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: azure;
+    list-style-type: none;
+    height: 60px;
+}
+nav ul li{
+padding: 10px 12px;
+}
+.brand img{
+   width: 45px;
+   padding: 0px 10px;
+   display: flex;
+}
+.brand {
+    display: flex;
+    font-size: 1.4rem;
+    align-items: center;
+    font-weight: bolder;
+ }
+ .container{
+    background-image:url('spotify img/bek.jpg');
+   
+    background-repeat: no-repeat;
+    background-attachment: scroll;  
+    background-size: cover;
+    min-height: 70vh;
+    background-color: black;
+    color: azure;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 15px;
+    padding: 32px;
+    font-size: 13px;
+  
+ }
+ .bottom{
+    display: flex;
+    bottom: 0;
+    position: sticky;
+    height: 80px;
+    background: black;
+    color: aliceblue;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+ 
+ }
+ .icons{
+    margin: 5px 0px 0px 0px;
+ }
+ .icons i{
+    cursor: pointer;
+ }
+ .container{
+    min-height: 78vh;
+ }
+ #myprogressbar{
+    width: 80vw;
+   cursor: pointer;
+
+ }
+ .songItem{
+    height: 50px;
+    display: flex;
+    background-color: antiquewhite;
+    color: black;
+    width: 80%;
+    margin:12px 0px ;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+ }
+ .songItem img{
+    border-radius: 18px;
+     width: 42px;
+     margin:0px 23px ;
+ }
+ 
+.timestamp{
+    margin: 0 23px;
+    
+} 
+.timestamp i{
+   cursor: pointer;
+    
+} 
+.songinfo{
+    position: absolute;
+    left:10vw ;
+}
+.songinfo img{
+    opacity:0;
+    transition: opacity 0.4s ease-in;
+}
